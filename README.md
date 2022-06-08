@@ -4,3 +4,7 @@ Pose estimation is a computer vision technique that is used to predict the confi
 
 Human pose estimation localizes body key points to accurately recognize the postures of individuals given an image. These estimations are performed in either 3D or 2D. 
 
+The main process of human pose estimation includes two basic steps:                                                                               
+1) localizing human body joints/key points                                                                                                                        2) grouping those joints into valid human pose configuration
+
+In the first step, the main focus is on finding the location of each key points of human beings. E.g. Head, shoulder, arm, hand, knee, ankle. The second step is grouping those joints into valid human pose configuration which determines the pairwise terms between body parts.
